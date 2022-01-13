@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MVP.API</name>
+    </assembly>
+    <members>
+        <member name="M:MVP.API.Controllers.UserController.#ctor(MVP.Core.Interfaces.IUserServices,AutoMapper.IMapper)">
+            <summary>
+            User Controller
+            </summary>
+            <param name="userServices"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:MVP.API.Controllers.UserController.GetAllActiveUsers">
+            <summary>
+            Retrive the all active users
+            </summary>
+            <returns>users</returns>
+        </member>
+        <member name="M:MVP.API.Controllers.UserController.AddUser(MVP.Core.DTOs.UserDto)">
+            <summary>
+            Add new user
+            </summary>
+            <param name="newUser"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVP.API.Controllers.UserController.UpdateActiveUser(System.Int32)">
+            <summary>
+            Update specific user
+            </summary>
+            <param name="idUser"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVP.API.Controllers.UserController.DeleteUser(System.Int32)">
+            <summary>
+            Delet specific user
+            </summary>
+            <param name="idUser"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
